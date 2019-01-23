@@ -1,0 +1,32 @@
+div#upv{
+	background-image:url('imagenes/logos/upv2.jpg');
+	background-size: cover; 
+   	background-repeat: no-repeat; 
+   	background-position: 50% 50%;
+   	
+    height:150px;
+}
+
+header > h1{
+	background-color: #e3e1ec;
+	height: 100px;
+	text-align: center;
+	line-height: 330%;
+	font-family: 'Orbitron', sans-serif;
+	margin: 0px;
+}
+#left{
+	float: left;
+	height: 100px;
+	margin-left: 15px;
+}
+#right{
+	float: right;
+	margin-top: 10px;
+	height:83px;
+	margin-right: 20px;
+}
+body{
+	margin: 0px;
+	min-width: 554px;
+}

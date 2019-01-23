@@ -1,0 +1,17 @@
+
+div a > img.pub_left{
+	width: 50px;
+	height: 100%;
+	float: left;
+	
+
+}
+div a > img.pub_right{
+	width: 50px;
+	height: 100%;
+	float: right;
+	
+}
+footer{
+	clear: both;
+}

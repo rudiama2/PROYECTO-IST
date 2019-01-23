@@ -1,0 +1,31 @@
+body > nav{
+	background-color: #EEE;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #AAA;
+	border-top-width: 2px;
+	border-bottom-color: #AAA;
+	border-bottom-width: 2px;
+
+}
+body nav ul{
+	padding: 0px;
+	font-size: 20px;
+	text-align: center;
+}
+body nav ul li{
+	display: inline;
+	padding: 15px;
+	height: 30px;
+	line-height: 0px;
+}
+ul li.pulsado{
+	background-color: #CCC;
+}
+nav > ul> li:hover{
+	background-color: #AAA;
+}
+nav ul li a{
+	text-decoration: none;
+	color: black;
+}

@@ -1,0 +1,123 @@
+/**
+	Especificaciones CSS para el juego del solitario 
+*/
+
+.central {
+	background-image: url("../imagenes/tapete2.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Syncopate', sans-serif;
+	color: white;
+}
+
+#solitario-header {
+	width: 100%;
+}
+
+/* Todos los contadores estarán ubicados en la parte inferior 
+   derecha (position absolute) de los respectivos tapetes (position relative).
+   La fuente determinada es Syncopate que puede encontrarse
+   en Google Fonts (actúese de manera oportuna para que 
+   pueda cargarse) 
+.contador {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}*/
+
+/* Botón de reset centrado y solitario: esta es una posibilidad */
+button#reset {
+	display: inline-block;
+}
+
+/* Centrado de los marcadores de tiempo y movimientos */
+h2#marcadores div {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	width: 30%;
+	margin: 0;
+}
+
+h2#marcadores div#buttons button {
+	font-family: 'Syncopate', sans-serif;
+	color: white;
+	padding: 10px;
+	margin: 10px;
+	border:none;
+	border-radius: 5px;
+	font-size: 14px;
+	width: 100px;
+	cursor: pointer;
+}
+
+button#reset {
+	background-color: darkred;
+}
+
+button#barajar {
+	background-color: darkgoldenrod;
+}
+
+button#auto {
+	background-color: darkgreen;
+}
+
+/* Mesa que contiene a los tapetes centrados */
+div#mesa {
+	height: 100vh;
+	height: 100%;
+	padding: 3%;
+}
+
+div.contenedor {
+	display: inline-block;
+}
+
+div.contenedor h2 {
+	text-align: center;
+	margin: 0 20px;
+	width: 100%;
+}
+
+div.tapetes_superiores {
+	display: inline-block;
+	width: 30%;
+	height: 600px;
+}
+
+div.tapetes_superiores div {
+	width: 220px;
+	height: 250px;
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+div.tapetes_inferiores {
+	display: inline-block;
+	vertical-align: top;
+	width: 67%;
+	height: 600px;
+	text-align: center;
+}
+
+div.tapetes_inferiores div {
+	margin: 20px;
+	height: 125px;
+	width: 100px;
+}
+
+/* Todos los tapetes con position relative para que
+   los respectivos mazos (arrays de <img>) puedan
+   posicionarse de manera absoluta respecto a ellos */
+div.tapete {
+	display: inline-block;
+	position: relative;
+}
+
+/* Color de fondo de los tapetes receptores */
+div.tapete.receptor {
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,99 @@
+div.general{
+	clear: both;
+}
+div.resumenes{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+div.resumenes > div.columna1{
+	margin-left: 20px;
+	width: calc((100% - 80px)*1/3);
+	float: left;
+
+}
+div.resumenes > div.columna2{
+	margin-left: 20px;
+	margin-right: 20px;
+	width: calc((100% - 80px)*1/3);
+	float: left;
+}
+div.resumenes > div.columna3{
+	margin-right: 20px;
+	width: calc((100% - 80px)*1/3);
+	float: left;
+}
+div.resumenes div  article{
+	display: inline-block;
+	vertical-align: top;
+	border-bottom: 0.5px;
+	margin-top: 15px;
+	margin-bottom: 50px;
+	padding-bottom: 10px;
+
+	width: 100%;
+}
+div.resumenes div  article:last-child{
+	display: inline-block;
+	vertical-align: top;
+	border-bottom: 0.5px;
+	margin-top: 15px;
+	margin-bottom: 50px;
+	padding-bottom: 10px;
+
+	width: 100%;
+
+	border-bottom-style: dotted;
+	border-bottom-color: gray;
+}
+body{
+	
+	min-width: 677px;
+}
+div.resumenes article div.lugar{
+	border-bottom: thin black solid;
+	text-align: right;
+	margin-bottom: 0px; 
+
+}
+div.resumenes article div.lugar span{
+	background-color: gray;
+	color: white;
+}
+
+div.resumenes article div.fecha_y_seccion{
+	
+
+}
+div.resumenes article div.fecha_y_seccion time{
+	display: block;
+	float: left;
+	background-color: gray;
+	color: white;
+
+}
+div.resumenes article div.fecha_y_seccion a{
+	display: block;
+	float: right;
+	background-color: purple;
+	color: white;
+}
+div.resumenes article div.titulo{
+
+}
+div.resumenes article p{
+	
+
+}
+div.resumenes article div.autor{
+	float:right;
+	font-style: oblique;
+
+}
+div.resumenes article div.likes_dislikes{
+	clear:both;
+	float: right;
+
+}
+article > img{
+	width: 100%;
+}

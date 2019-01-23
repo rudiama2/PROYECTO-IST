@@ -1,0 +1,139 @@
+div.resumenes{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+div.resumenes > div.fila{
+	width: 100%;
+}
+div.resumenes > div.fila2{
+	width: 100%;
+}
+
+/*PARA LINEA 1*/
+
+div.resumenes > div.fila > article.un_tercio{
+	display: inline-block;
+	vertical-align: top;
+	
+	border-bottom-style: dotted;
+	border-bottom-color: gray;
+	border-bottom: 0.5px;
+
+	margin-top: 15px;
+	margin-bottom: 50px;
+	padding-bottom: 10px;
+	
+	width: calc((100% - 60px)*1/3);
+
+	/*Varia en función de la fila*/
+	margin-left: 10px;
+	margin-right: 20px;
+
+	border-bottom-style: dotted;
+	border-bottom-color: gray;
+}
+div.resumenes > div.fila > article.dos_tercio{
+	display: inline-block;
+	vertical-align: top;
+	border-bottom-style: dotted;
+	border-bottom-color: gray;
+	border-bottom: 0.5px;
+
+	margin-top: 15px;
+	margin-bottom: 50px;
+	padding-bottom: 10px;
+	width: calc((100% - 60px)*2/3);
+
+	/*Varia en función de la fila*/
+	margin-left: 20px;
+	margin-right: 10px;
+
+	border-bottom-style: solid;
+	border-bottom-color: gray;
+}
+/*PARA LINEA 2*/
+div.resumenes > div.fila2 > article.un_tercio{
+	display: inline-block;
+	vertical-align: top;
+	
+	
+	border-bottom: 0.5px;
+
+	margin-top: 15px;
+	margin-bottom: 50px;
+	padding-bottom: 10px;
+	
+	width: calc((100% - 60px)*1/3);
+
+	/*Varia en función de la fila*/
+	margin-left: 20px;
+	margin-right: 10px;
+	
+}
+div.resumenes > div.fila2 > article.dos_tercio{
+	display: inline-block;
+	vertical-align: top;
+	
+	border-bottom: 0.5px;
+
+	margin-top: 15px;
+	margin-bottom: 50px;
+	padding-bottom: 10px;
+	width: calc((100% - 60px)*2/3);
+	
+	/*Varia en función de la fila*/
+	margin-left: 10px;
+	margin-right: 20px;
+}
+div.general{
+	clear: both;
+}
+/*DENTRO DE CADA ARTICULO*/
+div.resumenes article div.lugar{
+	border-bottom: thin black solid;
+	text-align: right;
+	margin-bottom: 0px; 
+
+}
+div.resumenes article div.lugar span{
+	background-color: gray;
+	color: white;
+}
+
+div.resumenes article div.fecha_y_seccion{
+	
+
+}
+div.resumenes article div.fecha_y_seccion time{
+	display: block;
+	float: left;
+	background-color: gray;
+	color: white;
+
+}
+div.resumenes article div.fecha_y_seccion a{
+	display: block;
+	float: right;
+	background-color: purple;
+	color: white;
+}
+div.resumenes article div.titulo{
+
+}
+div.resumenes article p{
+	font-weight: bold;
+
+}
+div.resumenes article div.autor{
+	float:right;
+	font-style: oblique;
+
+}
+div.resumenes article div.likes_dislikes{
+	clear:both;
+	float: right;
+
+}
+article > img{
+	width: 100%;
+}
